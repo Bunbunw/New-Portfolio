@@ -1,10 +1,15 @@
 :root {
-    background-color: var(--dark);
+    background-color: var(--black);
+}
+
+* {
+    font-family: monospace;
+    font-size: 1rem;
 }
 
 /* Scrollbar */
 body::-webkit-scrollbar {
-    width: 12px;
+    width: 8px;
 }
   
 body::-webkit-scrollbar-track {
@@ -12,7 +17,7 @@ body::-webkit-scrollbar-track {
 }
   
 body::-webkit-scrollbar-thumb {
-    background-color: var(--dark);
+    background-color: var(--white);
 }
 /* end of scrollbar */
 
@@ -29,11 +34,18 @@ section {
 }
 
 .divider {
-    width: 94%;
-    margin-left: 3%;
+    width: 1%;
+    margin-left: 49.5%;
     height: 1px;
     background-color: var(--white);
+    transition: all 1s;
 }
+
+.expanded {
+    width: 90%;
+    margin-left: 5%;
+}
+
 
 
 

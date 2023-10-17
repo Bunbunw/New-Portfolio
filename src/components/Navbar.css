@@ -22,15 +22,42 @@ nav {
 
 .sections li {
     list-style-type: none;
+    padding: 0 10px;
+    transition: all 1s;
+}
+
+.expandli li {
     padding: 0 20px;
 }
 
 .nav-divider {
     position: fixed;
-    width: 94%;
-    height: 1px;
     top: 79px;
-    margin-left: 3%;
+    width: 1%;
+    margin-left: 49.5%;
+    height: 1px;
     background-color: var(--white);
+    transition: all 1s;
     z-index: 999;
+}
+
+.expanded {
+    width: 90%;
+    margin-left: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+  
+a:hover, a:active, a:focus {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    transition: font-size 1s ease;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
