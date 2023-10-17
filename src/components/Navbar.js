@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import "./Palette.css";
 
+import Icon from "../assets/Icon.png";
+
 function NavDivider() {
   const [expanded, setExpanded] = useState(false);
 
@@ -28,7 +30,12 @@ function Navbar() {
   return (
     <>
       <nav className="Navbar">
-        <p className="icon">Icon to be replaced</p>
+        {/* <p className="icon">Icon to be replaced</p> */}
+        <img
+          src={Icon}
+          alt="icon"
+          class={`icon ${expanded ? "expandicon" : ""}`}
+        />
         <ul className={`sections ${expanded ? "expandli" : ""}`}>
           <li>
             <a href="#about">About</a>

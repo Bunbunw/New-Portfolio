@@ -17,6 +17,12 @@ nav {
 }
 
 .icon {
+    padding-left: 80px;
+    width: 70px;
+    transition: all 1s;
+}
+
+.expandicon {
     padding-left: 50px;
 }
 
@@ -24,6 +30,10 @@ nav {
     list-style-type: none;
     padding: 0 10px;
     transition: all 1s;
+}
+
+.sections {
+    padding-right: 15px;
 }
 
 .expandli li {
@@ -46,18 +56,18 @@ nav {
     margin-left: 5%;
 }
 
-a {
+.Navbar a {
     text-decoration: none;
     color: inherit;
+    transition: font-size 1s ease;
 }
   
-a:hover, a:active, a:focus {
+.Navbar a:hover, a:active, a:focus {
     text-decoration: none;
     color: inherit;
 }
 
-a:hover {
-    transition: font-size 1s ease;
+.Navbar a:hover {
     font-size: 1.2rem;
     font-weight: 700;
 }
