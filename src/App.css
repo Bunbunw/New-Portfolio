@@ -2,6 +2,10 @@
     background-color: var(--black);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     font-family: monospace;
     font-size: 1rem;
@@ -46,7 +50,10 @@ section {
     margin-left: 5%;
 }
 
-
+.locator {
+    position: relative;
+    top: -70px;
+}
 
 
 

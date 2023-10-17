@@ -22,12 +22,16 @@ function App() {
     <>
       <Navbar />
       <div className="body">
+        <div class="locator" id="about-locator"></div>
         <section className="about" id="about"></section>
         <Divider />
+        <div class="locator" id="featured-locator"></div>
         <section className="featured" id="featured"></section>
         <Divider />
+        <div class="locator" id="projects-locator"></div>
         <section className="projects" id="projects"></section>
         <Divider />
+        <div class="locator" id="contact-locator"></div>
         <section className="contact" id="contact"></section>
       </div>
       <Footer />
