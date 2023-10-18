@@ -14,15 +14,36 @@ html {
 
 /* Scrollbar */
 body::-webkit-scrollbar {
+    width: 0px;
+}
+#scrollPath
+{
+    position: fixed;
+    top: 0;
+    right: 0;
     width: 8px;
+    height: 100vh;
+    background: var(--dark);
+    z-index: 1000;
 }
-  
-body::-webkit-scrollbar-track {
-    background: var(--black);
+#progressbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 8px;
+    height: 100vh;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    animation: gradient 5s linear infinite;
+    z-index: 1002;
+    box-shadow: 5px 0 20px 1px var(--white);
 }
-  
-body::-webkit-scrollbar-thumb {
-    background-color: var(--white);
+@keyframes gradient {
+    0%, 100% {
+        filter: hue-rotate(0deg);
+    }
+    50% {
+        filter: hue-rotate(360deg);
+    }
 }
 /* end of scrollbar */
 

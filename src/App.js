@@ -19,9 +19,18 @@ function Divider() {
 }
 
 function App() {
+  let progress = document.getElementById("progressbar");
+  let totalHeight = document.body.scrollHeight - window.innerHeight;
+  window.onscroll = function () {
+    let progressHeight = (window.pageYOffset / totalHeight) * 100;
+    progress.style.height = progressHeight + "%";
+  };
+
   return (
     <>
       <Navbar />
+      <div id="progressbar"></div>
+      <div id="scrollPath"></div>
       <div className="body">
         <div class="locator" id="about-locator"></div>
         <section className="about black-bg" id="about">
