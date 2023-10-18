@@ -71,3 +71,9 @@ nav {
     font-size: 1.2rem;
     font-weight: 700;
 }
+
+@media only screen and (max-width: 950px) {
+    .sections li {
+        padding: 0 7px;
+    }
+}

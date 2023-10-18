@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import "./components/Palette.css";
+import About from "./components/About";
 
 function Divider() {
   const [expanded, setExpanded] = useState(false);
@@ -23,7 +24,9 @@ function App() {
       <Navbar />
       <div className="body">
         <div class="locator" id="about-locator"></div>
-        <section className="about" id="about"></section>
+        <section className="about black-bg" id="about">
+          <About />
+        </section>
         <Divider />
         <div class="locator" id="featured-locator"></div>
         <section className="featured" id="featured"></section>

@@ -9,6 +9,7 @@ html {
 * {
     font-family: monospace;
     font-size: 1rem;
+    overflow-x: hidden;
 }
 
 /* Scrollbar */
@@ -55,6 +56,9 @@ section {
     top: -70px;
 }
 
+.black-bg {
+    background-color: var(--black);
+}
 
 
 .bold {
