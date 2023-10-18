@@ -5,6 +5,8 @@ import Footer from "./components/Footer";
 import "./components/Palette.css";
 import About from "./components/About";
 
+import Projects from "./components/Projects";
+
 function Divider() {
   const [expanded, setExpanded] = useState(false);
 
@@ -51,7 +53,9 @@ function App() {
         <section className="featured" id="featured"></section>
         <Divider />
         <div class="locator" id="projects-locator"></div>
-        <section className="projects" id="projects"></section>
+        <section className="projects" id="projects">
+          <Projects />
+        </section>
         <Divider />
         <div class="locator" id="contact-locator"></div>
         <section className="contact" id="contact"></section>

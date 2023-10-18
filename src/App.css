@@ -17,6 +17,7 @@ html {
 body::-webkit-scrollbar {
     width: 0px;
 }
+
 #scrollPath
 {
     position: fixed;
@@ -59,6 +60,8 @@ section {
     height: calc(100vh - 60px);
     background-color: var(--dark);
     overflow-y: hidden;
+    align-items: center;
+    text-align: center;
 }
 
 .divider {
