@@ -31,9 +31,9 @@ h1 {
 .moving-bg {
   position: absolute;
   left: 0;
-  transform: rotate(30deg);
-  top: -250px;
-  right: -250px;
+  /* transform: rotate(30deg); */
+  top: 40vh;
+  /* right: -250px; */
   overflow-y: hidden;
   z-index: -1;
 }
@@ -113,11 +113,16 @@ h1 {
     .role, .school {
         font-size: 1rem;
     }
+    .moving-bg {
+      top: 36vh;
+    }
 }
 
 @media only screen and (max-width: 550px) {
   .profile {
-    transform: translateX(-22vh);
-    width: 100vw;
+    transform: translateX(-25vh);
+  }
+  .moving-bg {
+    top: 32vh;
   }
 }
