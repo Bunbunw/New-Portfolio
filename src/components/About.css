@@ -75,7 +75,7 @@ h1 {
       text-shadow: 0 0 10px var(--white);
     }
     50% {
-      text-shadow: 0 0 20px var(--regular);
+      text-shadow: 0 0 10px var(--regular);
     }
     100% {
       text-shadow: 0 0 10px var(--white);
@@ -117,6 +117,7 @@ h1 {
 
 @media only screen and (max-width: 550px) {
   .profile {
-    transform: translateX(-20vh);
+    transform: translateX(-22vh);
+    width: 100vw;
   }
 }

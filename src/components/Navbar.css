@@ -86,4 +86,8 @@ nav {
     .sections li a {
         font-size: 0.7rem;
     }
+    .icon {
+        padding-left: 20px;
+        width: 60px;
+    }
 }
