@@ -9,6 +9,7 @@ html {
 * {
     font-family: monospace;
     font-size: 1rem;
+    position: relative;
     overflow-x: hidden;
 }
 

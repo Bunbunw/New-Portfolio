@@ -1,5 +1,7 @@
 .profile {
     height: calc(100vh - 65px);
+    max-width: 100%;
+    display: block;
     transition: transform 0.5s ease;
     position: absolute;
     bottom: 0;
@@ -8,7 +10,7 @@
 .headline {
     position: absolute;
     right: 12%;
-    top: 30vh;
+    top: 20vh;
     text-align: center;
     color: var(--white);
     animation: glowing 1.2s linear infinite;
@@ -32,7 +34,7 @@ h1 {
   position: absolute;
   left: 0;
   /* transform: rotate(30deg); */
-  top: 40vh;
+  top: 30vh;
   /* right: -250px; */
   overflow-y: hidden;
   z-index: -1;
@@ -72,13 +74,13 @@ h1 {
 
 @keyframes glowing {
     0% {
-      text-shadow: 0 0 10px var(--white);
+      text-shadow: 0 0 12px var(--white);
     }
     50% {
-      text-shadow: 0 0 10px var(--regular);
+      text-shadow: 0 0 12px var(--regular);
     }
     100% {
-      text-shadow: 0 0 10px var(--white);
+      text-shadow: 0 0 12px var(--white);
     }
 }
 
@@ -104,25 +106,40 @@ h1 {
       transform: translateX(-15vh);
     }
     h1 {
-        font-size: 8vw;
+        font-size: 10vw;
     }
     .headline {
-        top: 35vh;
+        top: 25vh;
         right: 5vw;
     }
     .role, .school {
         font-size: 1rem;
     }
     .moving-bg {
-      top: 36vh;
+      top: 28vh;
     }
 }
 
 @media only screen and (max-width: 550px) {
   .profile {
-    transform: translateX(-25vh);
+    height: auto;
+  }
+  .headline {
+    top: 35vh;
+    right: 0vw;
   }
   .moving-bg {
-    top: 32vh;
+    display: none;
+  }
+  @keyframes glowing {
+    0% {
+      text-shadow: 0 0 5px var(--white);
+    }
+    50% {
+      text-shadow: 0 0 5px var(--regular);
+    }
+    100% {
+      text-shadow: 0 0 5px var(--white);
+    }
   }
 }
