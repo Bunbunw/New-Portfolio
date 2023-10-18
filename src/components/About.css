@@ -1,11 +1,9 @@
 .profile {
     height: calc(100vh - 65px);
     transition: transform 0.5s ease;
-    z-index: -1;
-    overflow: hidden;
+    position: absolute;
+    bottom: 0;
 }
-
-
 
 .headline {
     position: absolute;
@@ -14,6 +12,7 @@
     text-align: center;
     color: var(--white);
     animation: glowing 1.2s linear infinite;
+    z-index: 3;
 }
 
 h1 {
@@ -26,6 +25,49 @@ h1 {
 
 .role, .school {
     font-size: 1.5rem;
+}
+
+
+.moving-bg {
+  position: absolute;
+  left: 0;
+  transform: rotate(30deg);
+  top: -250px;
+  right: -250px;
+  overflow-y: hidden;
+  z-index: -1;
+}
+
+.row {
+  display: inline-block;
+  white-space: nowrap;
+  overflow-y: hidden;
+  /* animation: moving 10s linear infinite; */
+}
+
+.row :nth-child(even) {
+  animation: moving 10s linear infinite;
+}
+
+.row :nth-child(odd) {
+  animation: moving-rev 10s linear infinite;
+}
+
+@keyframes moving {
+  0% {transform: translateX(0%);}
+  100% {transform: translateX(-12.5%);}
+}
+
+@keyframes moving-rev {
+  0% {transform: translateX(-25%);}
+  100% {transform: translateX(-12.5%);}
+}
+
+.row p {
+  font-family: Lobster;
+  color: var(--white);
+  font-size: 3rem;
+  margin-top: -60px;
 }
 
 @keyframes glowing {

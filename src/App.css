@@ -31,7 +31,7 @@ body::-webkit-scrollbar {
     top: 0;
     right: 0;
     width: 8px;
-    height: 100vh;
+    height: 0;
     background: linear-gradient(to top, #008aff, #00ffe7);
     animation: gradient 5s linear infinite;
     z-index: 1002;
@@ -57,6 +57,7 @@ section {
     width: 100%;
     height: calc(100vh - 60px);
     background-color: var(--dark);
+    overflow-y: hidden;
 }
 
 .divider {
@@ -65,6 +66,7 @@ section {
     height: 1px;
     background-color: var(--white);
     transition: all 1s;
+    z-index: 2;
 }
 
 .expanded {
@@ -78,7 +80,7 @@ section {
 }
 
 .black-bg {
-    background-color: var(--black);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 
