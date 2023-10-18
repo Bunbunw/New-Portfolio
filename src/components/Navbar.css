@@ -32,6 +32,10 @@ nav {
     transition: all 1s;
 }
 
+.sections li a {
+    font-size: 1rem;
+}
+
 .sections {
     padding-right: 30px;
 }
@@ -79,7 +83,7 @@ nav {
 }
 
 @media only screen and (max-width: 550px) {
-    .sections li {
-        font-size: 0.6rem;
+    .sections li a {
+        font-size: 0.7rem;
     }
 }
