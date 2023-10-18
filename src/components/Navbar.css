@@ -77,3 +77,9 @@ nav {
         padding: 0 7px;
     }
 }
+
+@media only screen and (max-width: 550px) {
+    .sections li {
+        font-size: 0.6rem;
+    }
+}
