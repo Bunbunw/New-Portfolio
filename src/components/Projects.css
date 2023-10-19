@@ -1,6 +1,8 @@
 .project-title {
     color: white;
-    font-size: 3rem;
+    font-size: 3.5rem;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
     position: absolute;
     top: 0;
     left: calc(50vw - 7rem);
@@ -17,7 +19,7 @@
     /* white-space: nowrap; */
     animation: slide 20s ease infinite;
     position: relative;
-    margin-top: 220px;
+    margin-top: 200px;
 }
 
 @keyframes slide {
@@ -41,6 +43,9 @@
 @media screen and (max-height: 800px) {
     .project-wrapper {
         margin-top: -90px;
+    }
+    .project-title {
+        margin-top: 0;
     }
 }
 

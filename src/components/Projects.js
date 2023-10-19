@@ -7,7 +7,7 @@ import SustainU from "../assets/SustainU.png";
 function Projects() {
   return (
     <div className="projects-main">
-      <h2 className="project-title">Projects</h2>
+      <h2 className="project-title">PROJECTS</h2>
       <div className="project-wrapper">
         <div className="project Eventful">
           <a
