@@ -6,6 +6,7 @@ import "./components/Palette.css";
 import About from "./components/About";
 
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 function Divider() {
   const [expanded, setExpanded] = useState(false);
@@ -58,7 +59,9 @@ function App() {
         </section>
         <Divider />
         <div class="locator" id="contact-locator"></div>
-        <section className="contact" id="contact"></section>
+        <section className="contact" id="contact">
+          <Contact />
+        </section>
       </div>
       <Footer />
     </>
