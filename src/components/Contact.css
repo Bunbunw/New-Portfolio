@@ -1,0 +1,74 @@
+.contact-title {
+    color: white;
+    font-size: 3.5rem;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+    position: relative;
+    left: 0;
+}
+
+.contact-wrapper {
+    width: 60vw;
+    margin-left: 20vw;
+    height: 65vh;
+    display: block;
+    overflow: hidden;
+    /* border: 1px solid white; */
+}
+
+form {
+    text-align: left;
+    height: 65vh;
+}
+
+.input {
+    width: 100%;
+    height: 4vh;
+    margin-top: 5vh;
+    border: none;
+    outline: none;
+    color: var(--white);
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    transition: 1s ease;
+}
+
+.message {
+    height: 25vh;
+}
+
+.placeholder {
+    color: var(--white);
+    position: relative;
+    /* top: -28px; */
+    transition: 0.4s ease-out;
+    letter-spacing: 0.2rem;
+    padding-left: 10px;
+}
+
+/* .input-selected {
+    top: -60px;
+    animation: glow-text infinite linear;
+}
+
+.input-selected-big {
+    transition: 0.7s ease-out;
+    top: -250px;
+    animation: glow-text infinite linear;
+} */
+
+
+
+/* .input-description :focus */
+
+.submit-button {
+    width: 70px;
+    padding: 6px;
+    /* height: 20px; */
+    position: absolute;
+    margin-top: 30px;
+    left: calc(30vw - 40px);
+    border: 1px solid white;
+    background-color: transparent;
+    color: var(--white);
+}
