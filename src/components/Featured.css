@@ -1,0 +1,54 @@
+.featured-title {
+    color: white;
+    font-size: 3.5rem;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+    position: relative;
+    font-weight: 600;
+    left: 0;
+    top: -20px;
+}
+
+.rectangle {
+    width: 20px;
+    height: 20px;
+    transform: rotate(-45deg);
+    background-color: transparent;
+    border: 1px solid white;
+    position: absolute;
+    top: 50vh;
+    left: 48vw;
+}
+
+h3, .content {
+    color: var(--white);
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.languages {
+    font-size: 1.2rem;
+}
+
+.other {
+    top: 20vh;
+}
+
+.skills-column{
+    display: flex;
+    flex-direction: column;
+    width: 39%;
+}
+
+.featured-main{
+    display: flex;
+    left: 10%;
+    top: -5vh;
+    height: 80vh;
+}
+
+.margin-t {
+    margin-top: 5vh;
+}

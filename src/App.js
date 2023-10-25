@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import "./components/Palette.css";
 import About from "./components/About";
-
+import Featured from "./components/Featured";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
@@ -51,7 +51,9 @@ function App() {
         </section>
         <Divider />
         <div class="locator" id="featured-locator"></div>
-        <section className="featured" id="featured"></section>
+        <section className="featured" id="featured">
+          <Featured />
+        </section>
         <Divider />
         <div class="locator" id="projects-locator"></div>
         <section className="projects" id="projects">

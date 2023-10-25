@@ -11,7 +11,7 @@
     align-items: center;
     overflow: hidden;
     display: flex;
-    top: -150px;
+    top: -20vh;
     -webkit-mask-image: linear-gradient(90deg, transparent, white, white, transparent);
 }
 
