@@ -54,7 +54,7 @@ function Contact() {
             onChange={handleChange}
           />
           <span className="placeholder msg">your message</span>
-          <br />
+          {/* <br /> */}
           <input type="submit" className="submit-button" />
         </form>
       </div>
