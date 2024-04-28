@@ -24,17 +24,17 @@ function Featured() {
         <div class="skills-column experiences">
           <h3>Experience</h3>
           <p class="bold content margin-t">Ping An Bank Intern</p>
-          <p class="content">
+          <p class="content des">
             Used SpringBoot, MySQL, Redis, Postman, RESTful APIs to maintain a
             loan section in an app.
           </p>
           <p class="bold content margin-t"> SoundLife Scarborough Part-time</p>
-          <p class="content">
+          <p class="content des">
             Helped with web-development of the official website with WordPress
             Admin.
           </p>
           <p class="bold content margin-t">Wintercamp TA Part-time</p>
-          <p class="content">
+          <p class="content des">
             Taught machine learning fundamentals and robotics in JavaScript.
             Helped student with projects.
           </p>

@@ -17,7 +17,7 @@
     border: 1px solid white;
     position: absolute;
     top: 50vh;
-    left: 48vw;
+    left: 47.7vw;
 }
 
 h3, .content {
@@ -51,4 +51,29 @@ h3 {
 
 .margin-t {
     margin-top: 5vh;
+}
+
+@media only screen and (max-width: 1000px) {
+    .skills-column {
+        display: block;
+        width: 90%;
+    }
+    .featured-main {
+        display: block;
+        width: 90%;
+        margin-top: -30px;
+    }
+    .rectangle {
+        display: none;
+    }
+    .other {
+        top: 0;
+    }
+    h3 {
+        font-size: 1.2rem;
+        top: -10px;
+    }
+    .des {
+        display: none;
+    }
 }
