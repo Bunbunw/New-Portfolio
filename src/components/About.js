@@ -13,7 +13,7 @@ function About() {
       <div className="headline">
         <h1 className="name">Sigmund Wang</h1>
         <p className="role">Full Stack Developer</p>
-        <p className="school">3rd year Student at UofT</p>
+        <p className="school">2nd year Student at UofT</p>
       </div>
       <div className="moving-bg">
         <div className="row">
