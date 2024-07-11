@@ -37,7 +37,7 @@ function Featured() {
         logo: SoundLife_logo,
         company: "Soundlife Scarborough",
         title: "Web Developer, Events & Programming Assistant",
-        date: "2024 Summer - 2025 Winter",
+        date: "2023 Fall - 2024 Winter",
         link: "https://www.soundlifescarborough.ca/",
         animation: false
     },
