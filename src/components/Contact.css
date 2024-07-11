@@ -40,22 +40,10 @@ form {
 .placeholder {
     color: var(--white);
     position: relative;
-    /* top: -28px; */
     transition: 0.4s ease-out;
     letter-spacing: 0.2rem;
     padding-left: 10px;
 }
-
-/* .input-selected {
-    top: -60px;
-    animation: glow-text infinite linear;
-}
-
-.input-selected-big {
-    transition: 0.7s ease-out;
-    top: -250px;
-    animation: glow-text infinite linear;
-} */
 
 
 
@@ -64,7 +52,6 @@ form {
 .submit-button {
     width: 70px;
     padding: 6px;
-    /* height: 20px; */
     position: absolute;
     margin-top: 30px;
     left: calc(30vw - 40px);
@@ -76,4 +63,9 @@ form {
 
 .submit-button:hover {
     background-color: rgba(255, 255, 255, 0.2);
+}
+
+input,
+textarea {
+    border-radius: 0;
 }
