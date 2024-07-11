@@ -4,7 +4,7 @@ import "./ExperienceCard.css";
 function ExperienceCard({ logo, company, title, date, link, animation }) {
     return (
         <a href={link} target="_blank" rel="noreferrer">
-            <div className={!animation ? "experience-wrapper-normal" : "experience-wrapper-highlight"}>
+            <div className={`experience-wrapper ${!animation ? "experience-normal" : "experience-highlight"}`}>
                 <img
                     src={logo}
                     alt={company}
