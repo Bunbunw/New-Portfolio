@@ -11,10 +11,21 @@ function Contact() {
 
   const onSubmit = (e) => {
     e.preventDefault();
+
+    if (!toSend.user_name || !toSend.user_email || !toSend.message) {
+      alert("Please fill in all fields!");
+      return; // Exit early if fields are not filled
+    }
+    
     send("DashUTSC", "template_k49135l", toSend, "qIXC7MEUv9VWPN1KE")
       .then((response) => {
         alert("Feedback Submitted Successfully!");
         console.log("SUCCESS!", response.status, response.text);
+        setToSend({
+          user_name: "",
+          user_email: "",
+          message: ""
+        });
       })
       .catch((err) => {
         alert("There is an error occurred.");

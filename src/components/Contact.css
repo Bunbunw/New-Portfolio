@@ -71,4 +71,9 @@ form {
     border: 1px solid white;
     background-color: transparent;
     color: var(--white);
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
 }
