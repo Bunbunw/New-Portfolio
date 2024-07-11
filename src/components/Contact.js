@@ -1,22 +1,23 @@
 import "./Contact.css";
-
 import React, { useState } from "react";
 import { send } from "@emailjs/browser";
 
 function Contact() {
   const [toSend, setToSend] = useState({
-    userName: "",
-    email: "",
+    user_name: "",
+    user_email: "",
     message: "",
   });
 
   const onSubmit = (e) => {
     e.preventDefault();
-    send("Service ID", "template ID", toSend, "USER ID")
+    send("DashUTSC", "template_k49135l", toSend, "qIXC7MEUv9VWPN1KE")
       .then((response) => {
+        alert("Feedback Submitted Successfully!");
         console.log("SUCCESS!", response.status, response.text);
       })
       .catch((err) => {
+        alert("There is an error occurred.");
         console.log("FAILED...", err);
       });
   };
@@ -34,28 +35,26 @@ function Contact() {
             type="text"
             className="input name"
             name="user_name"
-            value={toSend.userName}
+            placeholder="Your name"
+            value={toSend.user_name}
             onChange={handleChange}
           />
-          <span className="placeholder Name">your name</span>
           <input
             type="email"
             className="input email"
             name="user_email"
-            value={toSend.email}
+            placeholder="Your email"
+            value={toSend.user_email}
             onChange={handleChange}
           />
-          <span className="placeholder Email">your email</span>
           <textarea
-            type="textarea"
             className="input message"
             name="message"
+            placeholder="Your message"
             value={toSend.message}
             onChange={handleChange}
           />
-          <span className="placeholder msg">your message</span>
-          {/* <br /> */}
-          <input type="submit" className="submit-button" />
+          <input type="submit" className="submit-button" value="Send" />
         </form>
       </div>
     </div>
