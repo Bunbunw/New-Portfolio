@@ -50,14 +50,14 @@
 
 @media only screen and (max-width: 550px) {
     .experience-wrapper {
-        height: 11.5vh;
+        height: 78px;
     }
 
     .experience-text-wrapper {
-        padding-top: 1.5vh;
+        padding-top: 10px;
     }
 
     .experience_img {
-        top: 2vh;
+        top: 15px;
     }
 }
