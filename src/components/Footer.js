@@ -11,7 +11,7 @@ function Footer() {
   return (
     <footer className="Footer">
       <p className="designer">
-        Designed and coded by <span className="bold">Sigmund Wang</span>, 2023
+        Designed and coded by <span className="bold">Sigmund Wang</span>, 2024
       </p>
       <div className="favicons">
         <IconContext.Provider value={{ size: "1em", className: "icon" }}>

@@ -9,7 +9,23 @@
     top: -20px;
 }
 
-.rectangle {
+.experiences {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* Adjust the gap between items as needed */
+}
+
+.experience {
+    flex: 1 1 calc(50% - 20px);
+    /* Two items per row with gap */
+    box-sizing: border-box;
+    /* Ensure padding and border are included in the width and height */
+}
+
+
+/* .rectangle {
     width: 20px;
     height: 20px;
     transform: rotate(-45deg);
@@ -76,4 +92,4 @@ h3 {
     .des {
         display: none;
     }
-}
+} */

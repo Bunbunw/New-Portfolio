@@ -1,0 +1,47 @@
+.experience-wrapper-normal {
+    width: 450px;
+    height: 15vh;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+}
+
+.experience-wrapper-highlight {
+    width: 450px;
+    height: 15vh;
+    background-color: rgba(99, 173, 242, 0.2);
+    border: 1px solid white;
+}
+
+.experience-wrapper-normal p,
+.experience-wrapper-highlight p {
+    margin: 0;
+    color: white;
+}
+
+.experience-text-wrapper {
+    position: absolute;
+    width: calc(100% - 110px);
+    right: 0;
+    text-align: left;
+    padding: 0 20px;
+    padding-top: 4vh;
+}
+
+.experience_img {
+    width: 50px;
+    position: absolute;
+    left: 20px;
+    top: 30%;
+}
+
+.experience_comp {
+    font-weight: bold;
+}
+
+.experience_title {
+    font-size: 14px;
+}
+
+.experience_date {
+    font-size: 12px;
+}
