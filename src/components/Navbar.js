@@ -38,16 +38,16 @@ function Navbar() {
         />
         <ul className={`sections ${expanded ? "expandli" : ""}`}>
           <li>
-            <a href="#about-locator">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="#featured-locator">Featured</a>
+            <a href="#featured">Featured</a>
           </li>
           <li>
-            <a href="#projects-locator">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#contact-locator">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>

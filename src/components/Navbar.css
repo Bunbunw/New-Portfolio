@@ -1,6 +1,6 @@
 nav {
     position: fixed;
-    background-color: var(--black);
+    background-color: rgba(0, 0, 0, 0.9);
     color: var(--font-primary);
     display: flex;
     justify-content: space-between;
@@ -65,8 +65,10 @@ nav {
     color: inherit;
     transition: font-size 1s ease;
 }
-  
-.Navbar a:hover, a:active, a:focus {
+
+.Navbar a:hover,
+a:active,
+a:focus {
     text-decoration: none;
     color: inherit;
 }
@@ -86,6 +88,7 @@ nav {
     .sections li a {
         font-size: 0.7rem;
     }
+
     .icon {
         padding-left: 20px;
         width: 60px;

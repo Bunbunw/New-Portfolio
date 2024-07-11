@@ -45,22 +45,22 @@ function App() {
       <div id="scrollPath"></div>
       <Navbar />
       <div className="body">
-        <div class="locator" id="about-locator"></div>
+        <div class="locator" id="about"></div>
         <section className="about black-bg" id="about">
           <About />
         </section>
         <Divider />
-        <div class="locator" id="featured-locator"></div>
+        <div class="locator" id="featured"></div>
         <section className="featured" id="featured">
           <Featured />
         </section>
         <Divider />
-        <div class="locator" id="projects-locator"></div>
+        <div class="locator" id="projects"></div>
         <section className="projects" id="projects">
           <Projects />
         </section>
         <Divider />
-        <div class="locator" id="contact-locator"></div>
+        <div class="locator" id="contact"></div>
         <section className="contact" id="contact">
           <Contact />
         </section>
