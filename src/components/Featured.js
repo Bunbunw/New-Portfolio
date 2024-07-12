@@ -15,7 +15,7 @@ function Featured() {
     {
         logo: hoopp_logo,
         company: "Health of Ontario Pension Plan",
-        title: "Data Engineer Co-Op",
+        title: "Data Engineer Coop",
         date: "2024 Fall, 2025 Winter",
         link: "https://hoopp.com/",
         animation: true
@@ -78,7 +78,7 @@ function Featured() {
           />
         ))}
       </div>
-      <HorizontalScroll items={data} />
+      {/* <HorizontalScroll items={data} /> */}
     </>
   );
 }
