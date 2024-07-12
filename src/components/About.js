@@ -5,9 +5,7 @@ function About() {
   return (
     <>
       <p className="easter-egg">
-        How dare you check a portfolio on phone? Show respect to others! Umm...
-        well, the true reason is just because my design works so bad on phones
-        so please go to pc to check this page, please...... qwq
+      ❤️ Hi, Sigmund here! It might be... better to check on this portfolio in a bigger screen like your pc or ipad. But please also enjoy it here and wish you have a nice day! ❤️
       </p>
       <img src={profile} alt="profile-pic" class="profile"></img>
       <div className="headline">
