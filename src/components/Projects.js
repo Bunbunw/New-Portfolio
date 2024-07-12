@@ -27,7 +27,7 @@
 //   },
 // ];
 
-import React, { useRef } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, useTexture } from '@react-three/drei';
 import "./Projects.css";
@@ -101,6 +101,26 @@ function Carousel() {
 }
 
 function Project() {
+  const [enableOrbitControls, setEnableOrbitControls] = useState(true);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 950) {
+        setEnableOrbitControls(false);
+      } else {
+        setEnableOrbitControls(true);
+      }
+    };
+
+    handleResize(); // Initial check
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <>
       <h2 className="project-title">PROJECTS</h2>
@@ -108,7 +128,7 @@ function Project() {
         <Canvas camera={{ position: [0, 0, 5], fov: 50 }}>
           <ambientLight intensity={0.5} />
           <pointLight position={[10, 10, 2]} />
-          <OrbitControls enableZoom={false} />
+          {enableOrbitControls && <OrbitControls enableZoom={false} />}
           <Carousel />
         </Canvas>
       </div>
