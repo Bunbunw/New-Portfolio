@@ -71,6 +71,35 @@
 
 // export default Projects;
 
+// Project data
+
+// const projects = [
+//   {
+//     name: 'Eventful',
+//     date: '2023 Oct',
+//     description: 'React Native App with AI to simplify event planning process. Ranked 14 of 80 in Hack the Valley 8.',
+//     link: 'https://devpost.com/software/eventful-puhaj9',
+//   },
+//   {
+//     name: 'Portfolio',
+//     date: '2023 Oct',
+//     description: 'Personal Portfolio Built Using React. Integrated a lot of animations.',
+//     link: 'https://www.sigmund-wang.com/',
+//   },
+//   {
+//     name: 'CyberDash',
+//     date: '2022 Dec',
+//     description: 'Ball rolling game created with Unity, blender, soundtrack by FL Studio. Multi-level hard game.',
+//     link: 'https://www.linkedin.com/in/sigmund-wang/details/projects/',
+//   },
+//   {
+//     name: 'SustainU',
+//     date: '2023 Oct',
+//     description: 'Figma app prototype of a recycling app in campus. Winner of Best Nature Hack in Hack the Valley 7.',
+//     link: 'https://devpost.com/software/sustainu-app',
+//   },
+// ];
+
 import React, { useRef } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, useTexture } from '@react-three/drei';
