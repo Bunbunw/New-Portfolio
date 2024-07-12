@@ -67,4 +67,8 @@
         height: 67px;
         border: none;
     }
+
+    .experience_comp {
+        font-size: 14px;
+    }
 }
