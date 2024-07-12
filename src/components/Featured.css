@@ -29,3 +29,9 @@
         gap: 20px;
     }
 }
+
+@media only screen and (max-width: 400px) {
+    .experiences {
+        gap: 0px;
+    }
+}
