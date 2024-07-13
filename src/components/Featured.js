@@ -1,13 +1,13 @@
 import "./Featured.css";
 import ExperienceCard from "./ExperienceCard";
-import HorizontalScroll from './HorizontalScroll';
+// import HorizontalScroll from './HorizontalScroll';
 import hoopp_logo from "../assets/HOOPP_icon.jpeg";
 import UofT_logo from "../assets/UofT_icon.png";
 import StandardS_logo from "../assets/standardsoftwareinc_icon.jpeg";
 import SoundLife_logo from "../assets/Soundlife_Scarborough_icon.jpeg";
 import Ping_An_icon from "../assets/Ping_An_icon.png";
 
-const data = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5'];
+// const data = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5'];
 
 
 function Featured() {

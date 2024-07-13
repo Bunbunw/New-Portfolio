@@ -64,11 +64,15 @@
 
 @media only screen and (max-width: 400px) {
     .experience-wrapper {
-        height: 67px;
+        height: 72px;
         border: none;
     }
 
     .experience_comp {
         font-size: 14px;
+    }
+
+    .experience_img {
+        top: 10px;
     }
 }

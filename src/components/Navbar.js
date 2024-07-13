@@ -44,10 +44,13 @@ function Navbar() {
             <a href="#featured">Featured</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects">Project</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
+          </li>
+          <li>
+            <a href="/Sigmund_Resume_Tech.pdf" target="_blank">Resume</a>
           </li>
         </ul>
       </nav>
