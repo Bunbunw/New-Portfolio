@@ -18,8 +18,7 @@ body::-webkit-scrollbar {
     width: 0px;
 }
 
-#scrollPath
-{
+#scrollPath {
     position: fixed;
     top: 0;
     right: 0;
@@ -28,6 +27,7 @@ body::-webkit-scrollbar {
     background: var(--dark);
     z-index: 1000;
 }
+
 #progressbar {
     position: fixed;
     top: 0;
@@ -39,14 +39,19 @@ body::-webkit-scrollbar {
     z-index: 1002;
     box-shadow: 5px 0 20px 1px var(--white);
 }
+
 @keyframes gradient {
-    0%, 100% {
+
+    0%,
+    100% {
         filter: hue-rotate(0deg);
     }
+
     50% {
         filter: hue-rotate(360deg);
     }
 }
+
 /* end of scrollbar */
 
 
@@ -57,11 +62,17 @@ body::-webkit-scrollbar {
 
 section {
     width: 100%;
-    height: calc(100vh - 60px);
+    height: auto;
     background-color: var(--dark);
     overflow-y: hidden;
     align-items: center;
     text-align: center;
+    padding-bottom: 50px;
+}
+
+.black-bg {
+    height: calc(100vh - 60px);
+    padding-bottom: 0;
 }
 
 .divider {
