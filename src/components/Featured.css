@@ -10,6 +10,14 @@
     margin-bottom: 10px;
 }
 
+.overview {
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
 .experiences {
     display: flex;
     justify-content: center;

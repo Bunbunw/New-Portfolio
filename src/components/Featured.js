@@ -65,6 +65,12 @@ function Featured() {
   return (
     <>
       <p class="featured-title">FEATURED</p>
+      {/* <div className="overview">
+        <p>Hi, this is Sigmund, who is pursuing a HBSc CS Specialist Co-op and a Stats Minor degree at UofT.</p>
+      </div> */}
+      <div className="skills">
+      
+      </div>
       <div className="experiences">
         {experiences.map((experience, index) => (
           <ExperienceCard className="experience"

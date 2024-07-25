@@ -3,9 +3,9 @@ import "./About.css";
 import profile from "../assets/Person2.png";
 
 function About() {
-  const messages = ["Software Developer", "VP of Internal Affairs", "Composer"];
+  const messages = ["Software Developer", "VP Internal @CSEC", "Internal Audit @HOOPP", "Composer"];
   const typingSpeed = 80;
-  const pauseTime = 1500;
+  const pauseTime = 2000;
   
   const [displayText, setDisplayText] = useState("");
   const [currentMessageIndex, setCurrentMessageIndex] = useState(0);
@@ -14,12 +14,13 @@ function About() {
   
   useEffect(() => {
     const typeMessage = () => {
-      let charIndex = -1;
+      let charIndex = 0;
       setDisplayText(""); // Clear the text
 
       typingIntervalRef.current = setInterval(() => {
-        if (charIndex < messages[currentMessageIndex].length - 1) {
-          setDisplayText(prev => prev + messages[currentMessageIndex][charIndex]);
+        if (charIndex < messages[currentMessageIndex].length) {
+          const char = messages[currentMessageIndex][charIndex];
+          setDisplayText(prev => prev + (char === undefined? "" : char));
           charIndex += 1;
         } else {
           clearInterval(typingIntervalRef.current);
@@ -48,7 +49,8 @@ function About() {
         <h1 className="name">Sigmund Wang</h1>
         {/* <p className="role">Full Stack Developer</p> */}
         <p className="role">- {displayText} -</p>
-        <p className="school">3rd year Student at UofT</p>
+        {/* <p className="school">3rd year Student at UofT</p> */}
+        <p className="school">Create, Advance, Succeed.</p>
       </div>
       <div className="moving-bg">
         <div className="row">
