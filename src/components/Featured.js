@@ -65,9 +65,12 @@ function Featured() {
   return (
     <>
       <p class="featured-title">FEATURED</p>
-      {/* <div className="overview">
+      <div class="line"></div>
+      <div className="overview">
         <p>Hi, this is Sigmund, who is pursuing a HBSc CS Specialist Co-op and a Stats Minor degree at UofT.</p>
-      </div> */}
+        <p>With my rich experiences in Software Development and Data Engineer in my study career, interns and coops, part-times and club positions, I showed deep affection for software development and data. I have attended 6 hackathons and was honoured to become winner two times.</p>
+        <p>As for future, I am looking forward to more exciting opportunities both in Tech and Fintech companies. If you have any thoughts or chances, don't hesitate to contact me at the end of this page!</p>
+      </div>
       <div className="skills">
       
       </div>
