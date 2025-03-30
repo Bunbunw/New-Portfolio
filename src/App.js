@@ -8,6 +8,8 @@ import Featured from "./components/Featured";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
+// load the path: export PATH=$PATH:/usr/local/n/versions/node/16.12.0/bin
+
 function Divider() {
   const [expanded, setExpanded] = useState(false);
 
