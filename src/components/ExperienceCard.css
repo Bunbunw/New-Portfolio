@@ -1,6 +1,6 @@
 .experience-wrapper {
     width: 400px;
-    height: 15vh;
+    height: 90px;
     border: 1px solid white;
 }
 
@@ -24,14 +24,14 @@
     right: 0;
     text-align: left;
     padding: 0 20px;
-    padding-top: 4vh;
+    padding-top: 20px;
 }
 
 .experience_img {
     width: 50px;
     position: absolute;
     left: 20px;
-    top: 30%;
+    top: 20px;
 }
 
 .experience_comp {
@@ -54,7 +54,7 @@
     }
 
     .experience-text-wrapper {
-        padding-top: 10px;
+        padding-top: 13px;
     }
 
     .experience_img {
