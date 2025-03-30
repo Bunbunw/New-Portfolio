@@ -13,6 +13,8 @@ function PageOverlay() {
   return (
     isVisible && (
       <div className="overlay">
+        <div className="overlay-bar" />
+        <div className="overlay-outline" />
         <img src={Icon} alt="icon" className="overlay-icon" />
       </div>
     )
