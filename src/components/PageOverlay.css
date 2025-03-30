@@ -1,0 +1,50 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 9998;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeOut 0.3s ease-in, zoomFade 0.4s ease-in 0.8s forwards;
+}
+
+.overlay-icon {
+    width: min(250px, 80vw);
+    animation: zoomIn 0.3s ease-out, zoomFade 0.4s ease-in 0.8s forwards;
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes freeze {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes zoomFade {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
