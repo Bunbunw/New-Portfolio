@@ -36,9 +36,32 @@
     /* Ensure padding and border are included in the width and height */
 }
 
+.MuiTypography-root,
+.MuiLink-root {
+    font-family: 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.MuiTimelineDot-root {
+    background-color: white;
+}
+
 @media only screen and (min-width: 550px) {
     .experiences {
         gap: 20px;
+    }
+}
+
+@keyframes glowing2 {
+    0% {
+        text-shadow: 0 0 5px var(--regular);
+    }
+
+    50% {
+        text-shadow: 0 10 10px var(--regular);
+    }
+
+    100% {
+        text-shadow: 0 0 5px var(--regular);
     }
 }
 
