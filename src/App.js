@@ -1,33 +1,17 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import "./components/PageOverlay.css";
+import "./components/Palette.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import "./components/Palette.css";
 import About from "./components/About";
 import Featured from "./components/Featured";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import Icon from "./assets/Icon.png";
+import PageOverlay from "./components/PageOverlay";
 
 // load the path: export PATH=$PATH:/usr/local/n/versions/node/16.12.0/bin
 
-function PageOverlay() {
-  const [isVisible, setIsVisible] = useState(true);
 
-  useEffect(() => {
-    const timer = setTimeout(() => setIsVisible(false), 1300);
-    return () => clearTimeout(timer);
-  }, []);
-
-  return (
-    isVisible && (
-      <div className="overlay">
-        <img src={Icon} alt="icon" className="overlay-icon" />
-      </div>
-    )
-  );
-}
 
 function Divider() {
   const [expanded, setExpanded] = useState(false);
