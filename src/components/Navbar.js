@@ -51,8 +51,8 @@ function Navbar() {
               </>
             ) : (
               <>
-                <li><a href="/#">Home</a></li>
-                <li><a href="/Sigmund_Resume_Tech.pdf" target="_blank">Actual_Resume_here!</a></li>
+                <li><a href="/#">Back to Home</a></li>
+                {/* <li><a href="/Sigmund_Resume_Tech.pdf" target="_blank">Actual_Resume_here!</a></li> */}
               </>
             )
           }

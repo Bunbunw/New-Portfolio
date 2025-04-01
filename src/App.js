@@ -77,7 +77,7 @@ function App() {
             <Footer />
           </>
         )} />
-        <Route path="/tic-tac-toe" element={<TicTacToe />} /> {/* Update for element prop */}
+        <Route path="/tic-tac-toe" element={<TicTacToe />} />
       </Routes>
     </>
   );
