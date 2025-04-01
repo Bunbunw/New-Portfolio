@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Route, Routes } from 'react-router-dom';
 import "./App.css";
 import "./components/Palette.css";
 import Navbar from "./components/Navbar";
@@ -8,6 +9,7 @@ import Featured from "./components/Featured";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import PageOverlay from "./components/PageOverlay";
+import TicTacToe from "./components/TicTacToe";
 
 // load the path: export PATH=$PATH:/usr/local/n/versions/node/16.12.0/bin
 
@@ -48,28 +50,35 @@ function App() {
       <div id="progressbar"></div>
       <div id="scrollPath"></div>
       <Navbar />
-      <div className="body">
-        <div class="locator" id="about"></div>
-        <section className="about black-bg" id="about">
-          <About />
-        </section>
-        <Divider />
-        <div class="locator" id="featured"></div>
-        <section className="featured" id="featured">
-          <Featured />
-        </section>
-        <Divider />
-        <div class="locator" id="projects"></div>
-        <section className="projects" id="projects">
-          <Projects />
-        </section>
-        <Divider />
-        <div class="locator" id="contact"></div>
-        <section className="contact" id="contact">
-          <Contact />
-        </section>
-      </div>
-      <Footer />
+      <Routes> {/* Use Routes instead of Switch */}
+        <Route path="/" element={(
+          <>
+            <div className="body">
+              <div className="locator" id="about"></div>
+              <section className="about black-bg" id="about">
+                <About />
+              </section>
+              <Divider />
+              <div className="locator" id="featured"></div>
+              <section className="featured" id="featured">
+                <Featured />
+              </section>
+              <Divider />
+              <div className="locator" id="projects"></div>
+              <section className="projects" id="projects">
+                <Projects />
+              </section>
+              <Divider />
+              <div className="locator" id="contact"></div>
+              <section className="contact" id="contact">
+                <Contact />
+              </section>
+            </div>
+            <Footer />
+          </>
+        )} />
+        <Route path="/tic-tac-toe" element={<TicTacToe />} /> {/* Update for element prop */}
+      </Routes>
     </>
   );
 }

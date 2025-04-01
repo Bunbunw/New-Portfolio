@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import "./Navbar.css";
 import "./Palette.css";
 
@@ -22,6 +22,7 @@ function Navbar() {
   const [expanded, setExpanded] = useState(false);
 
   const location = useLocation();
+  const navigate = useNavigate();
 
   useEffect(() => {
     setExpanded(false);
