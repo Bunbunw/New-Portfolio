@@ -1,0 +1,25 @@
+.ttt-wrapper {
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+}
+
+.board {
+    width: 200px;
+    margin: auto;
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    background-color: transparent;
+    top: 0px;
+    margin-top: 0;
+    color: white;
+    animation: glowing2 2s infinite;
+}
+
+.ttt_cell {
+    font-family: "Orbitron", sans-serif;
+}
