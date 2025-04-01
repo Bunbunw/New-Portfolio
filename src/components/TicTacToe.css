@@ -6,14 +6,21 @@
 }
 
 .board {
-    width: 200px;
+    width: 180px;
     margin: auto;
+}
+
+.board_border {
+    margin: auto;
+    display: inline-block;
+    padding: 2px;
+    border: 1px solid white;
 }
 
 .cell {
     width: 60px;
     height: 60px;
-    border: 1px solid white;
+    border: 0.5px solid white;
     background-color: transparent;
     top: 0px;
     margin-top: 0;

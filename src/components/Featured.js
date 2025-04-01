@@ -20,7 +20,7 @@ function Featured() {
     {
         logo: hoopp_logo,
         company: "HOOPP",
-        title: "IT Audit Coop",
+        title: "Cybersecurity, IT Audit Coop",
         date: "2024 Fall - 2025 Winter",
         link: "https://hoopp.com/",
         description: [
