@@ -50,7 +50,7 @@ function About() {
         {/* <p className="role">Full Stack Developer</p> */}
         <p className="role">- {displayText} -</p>
         {/* <p className="school">3rd year Student at UofT</p> */}
-        <p className="school">Create, Advance, Succeed.</p>
+        <p className="quote">Create, Advance, Succeed.</p>
       </div>
       <div className="moving-bg">
         <div className="row">
