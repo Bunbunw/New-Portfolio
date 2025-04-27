@@ -118,7 +118,7 @@ export default function TicTacToe() {
         <br />
         {winner && <p className="mt-4 font-bold">{winner === "Draw" ?
             <>
-            <p>You tied! Luckily our Minimax algorithm is unbeatable, so here you go ... </p>
+            <p>You tied! Luckily our Maximizing algorithm is unbeatable, so here you go ... </p>
             <a href="/Sigmund_Resume_Tech.pdf" target="_blank" style={{ color: "white" }}>Actual Resume here!</a>
             </> : winner === "X" ? <><p>How did you win? I am 99.9% sure you cheated...</p><a href="/Sigmund_Resume_Tech.pdf" target="_blank" style={{ color: "white" }}>Actual Resume here!</a></> : "Computer wins, maybe try harder?" }</p>}
         <Button onClick={resetGame} style={{ color: "var(--regular)", animation: "glowing2 2s infinite", margin: "20px" }}>Restart</Button>
