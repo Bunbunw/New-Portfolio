@@ -13,10 +13,13 @@ function Footer() {
       <p className="designer">
         Designed and coded by <span className="bold">Sigmund Wang</span>, 2024
       </p>
+      <p className="friend">
+        Also check out my bro's porfolio <a href="https://austinyt.in/">here</a>
+      </p>
       <div className="favicons">
         <IconContext.Provider value={{ size: "1em", className: "icon" }}>
           <a
-            href="https://www.instagram.com/sigmund.wang/"
+            href="https://www.instagram.com/sigbunxx/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -30,7 +33,7 @@ function Footer() {
             <FaLinkedin />
           </a>
           <a
-            href="https://github.com/verusins"
+            href="https://github.com/bunbunw"
             target="_blank"
             rel="noopener noreferrer"
           >
