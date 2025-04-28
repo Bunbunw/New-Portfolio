@@ -14,7 +14,7 @@ function Footer() {
         Designed and coded by <span className="bold">Sigmund Wang</span>, 2024
       </p>
       <p className="friend">
-        Also check out my bro's porfolio <a href="https://austinyt.in/">here</a>
+        Also check out my bro's porfolio <a href="https://austinyt.in/" target="_blank" rel="noreferrer">here</a>
       </p>
       <div className="favicons">
         <IconContext.Provider value={{ size: "1em", className: "icon" }}>
