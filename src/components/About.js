@@ -3,7 +3,7 @@ import "./About.css";
 import profile from "../assets/Person2.png";
 
 function About() {
-  const messages = ["Software Developer", "VP Internal @CSEC", "IT Audit @HOOPP", "Composer"];
+  const messages = ["4th year CS @UofT", "SWE @Dayforce", "Composer"];
   const typingSpeed = 80;
   const pauseTime = 2000;
   
