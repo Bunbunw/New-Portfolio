@@ -10,6 +10,7 @@ import UofT_logo from "../assets/UofT_icon.png";
 import StandardS_logo from "../assets/standardsoftwareinc_icon.jpeg";
 import SoundLife_logo from "../assets/Soundlife_Scarborough_icon.jpeg";
 import Ping_An_icon from "../assets/Ping_An_icon.png";
+import Dayforce_icon from "../assets/Dayforce_icon.png"
 
 // const data = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5'];
 
@@ -17,6 +18,17 @@ import Ping_An_icon from "../assets/Ping_An_icon.png";
 function Featured() {
   const highlightWords = ["$35,000", "Python", "Student", "Council", "Leader", "30+", "PwC", "UofT", "officials", "70%", "team", "leader", "4", "100+", "50", "20+", "90%", "50,000", "users", "Global", "33rd" ];
   const experiences = [
+    {
+        logo: Dayforce_icon,
+        company: "Dayforce Ceridian",
+        title: "Software Developer Coop",
+        date: "2025 Fall - 2026 Winter",
+        link: "https://www.dayforce.com/ca",
+        description: [
+          "In charge of utilizing .NET, C#, React, SQL and OOP for client faced product features and enhancements."
+        ],
+        animation: true
+    },
     {
         logo: hoopp_logo,
         company: "HOOPP",
