@@ -11,7 +11,7 @@ function Footer() {
   return (
     <footer className="Footer">
       <p className="designer">
-        Designed and coded by <span className="bold">Sigmund Wang</span>, 2024
+        Designed and coded by <span className="bold">Sigmund Wang</span>, 2026
       </p>
       <p className="friend">
         Also check out my bro's porfolio <a href="https://austinyt.in/" target="_blank" rel="noreferrer">here</a>
