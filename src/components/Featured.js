@@ -10,33 +10,44 @@ import UofT_logo from "../assets/UofT_icon.png";
 import StandardS_logo from "../assets/standardsoftwareinc_icon.jpeg";
 import SoundLife_logo from "../assets/Soundlife_Scarborough_icon.jpeg";
 import Ping_An_icon from "../assets/Ping_An_icon.png";
-import Dayforce_icon from "../assets/Dayforce_icon.png"
-
-// const data = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5'];
-
+import Dayforce_icon from "../assets/Dayforce_icon.png";
+import TD_icon from "../assets/TD_icon.png";
 
 function Featured() {
-  const highlightWords = ["$35,000", "Python", "Student", "Council", "Leader", "30+", "PwC", "UofT", "officials", "70%", "team", "leader", "4", "100+", "50", "20+", "90%", "50,000", "users", "Global", "33rd" ];
+  const highlightWords = ["$40,000", "Python", "Student", "Council", "Leader", "30+", "PwC", "UofT", "officials", "70%", "leader", "4", "100+", "50", "20+", "90%", "50,000", "users", "Global", "33rd", "Longos", "Lululemon", "6%", "Scheduling", "React", "C#", ".NET" ];
   const experiences = [
     {
+        logo: TD_icon,
+        company: "TD",
+        title: "Software Engineer Intern",
+        date: "2026 Summer",
+        link: "https://www.td.com/us/en/personal-banking",
+        description: [
+          "Upcoming... Will be working for a backend team involving Java."
+        ],
+        animation: true
+    },
+    {
         logo: Dayforce_icon,
-        company: "Dayforce Ceridian",
+        company: "Dayforce",
         title: "Software Developer Coop",
         date: "2025 Fall - 2026 Winter",
         link: "https://www.dayforce.com/ca",
         description: [
-          "In charge of utilizing .NET, C#, React, SQL and OOP for client faced product features and enhancements."
+          "As part of the Scheduling team, deliver high-quality tickets in scrum cycles for companies as Longos and Lululemon.",
+          "Developed features for the newer generation Dayforce product, using React, C# .NET and Git for a complete workflow.",
+          "Increased Unit test coverage by 6% within department, utilizing SpecFlow and Multiple AI models like Copilot and GPT."
         ],
         animation: true
     },
     {
         logo: hoopp_logo,
         company: "HOOPP",
-        title: "Cybersecurity, IT Audit Coop",
+        title: "IT Audit Coop",
         date: "2024 Fall - 2025 Winter",
         link: "https://hoopp.com/",
         description: [
-          "Saved $35,000 annual license cost by presenting & utilizing Python automation using VM, Selenium and Pillow",
+          "Saved $40,000 annual license cost by presenting & utilizing Python automation using VM, Selenium and Pillow",
           "As a Student Council Leader, hosted coop events and presented learning sessions recognized by Vice President",
           "Performed 30+ controls in Azure and ServiceNow with PwC, mastered IT General Controls and Auditing"
         ],
@@ -70,7 +81,7 @@ function Featured() {
     {
         logo: SoundLife_logo,
         company: "Soundlife Scarborough",
-        title: "Web Developer, Program Assistant",
+        title: "Events and Programming Assistant",
         date: "2023 Fall - 2024 Winter",
         link: "https://www.soundlifescarborough.ca/",
         description: [
@@ -89,7 +100,7 @@ function Featured() {
           "Participated in the maintenance of an app for over 50,000 users in Scrum cycles and Agile. Examined and maintained the furniture loan app in the Global 33rd Company in 2023",
           "Utilizing HTML/CSS/JS with Vue, Java, Mybatis, MySQL, Redis within Spring Boot and Maven, RESTful API",
         ],
-        animation: true
+        animation: false
     },
     {
         logo: UofT_logo,
